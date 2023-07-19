@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+#taskInput, #addTaskButton {
+  margin: 10px 0;
+}
+#taskList {
+  list-style-type: none;
+  padding: 0;
+}
+#taskList li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#taskList li.completed {
+  text-decoration: line-through;
+}
+button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #ee3120;
+}
